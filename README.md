@@ -9,6 +9,6 @@ Click Apply to apply the texture to the performance stage
 We also provide you with some available pictures so you can customize the dress yourself and scan it up.
 *On demonstration, we use a hologram cage to display so all the display on the UI will be reversed.
 
-Instruction for Voice recognizer AI Download Swin_hackathon 2024.rar, install Android studio, choose your choosen Android device. Run the app program and start talking. Your talking will be record and show on the virtual device.
+Instruction for Voice recognizer AI First Download VOSK file, install Android Studio, choose your choosen Android device. Run the app program and start talking. Your talking will be record and show on the virtual device.
 
 Instruction for app Robot_Eduverse platform You neeed the robot to run the app probably so it can not be deployed on other devices without our robot (the firetruck robot and the boat robot) near there. (Robot_Eduverse platform)
