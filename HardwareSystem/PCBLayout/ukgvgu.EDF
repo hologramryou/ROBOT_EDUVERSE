@@ -1,0 +1,496 @@
+(PCB ukgvgu
+ (parser
+  (host_cad ARES)
+  (host_version 8.10 SP3)
+ )
+ (resolution mm 100000)
+ (unit mm)
+ (structure
+  (boundary (rect pcb -28.56400 0.12680 27.10020 116.59320))
+  (flip_style mirror_first)
+  (layer TOP (type signal) (direction horizontal))
+  (layer I1 (type signal) (direction off))
+  (layer I2 (type signal) (direction off))
+  (layer I3 (type signal) (direction off))
+  (layer I4 (type signal) (direction off))
+  (layer I5 (type signal) (direction off))
+  (layer I6 (type signal) (direction off))
+  (layer I7 (type signal) (direction off))
+  (layer I8 (type signal) (direction off))
+  (layer I9 (type signal) (direction off))
+  (layer I10 (type signal) (direction off))
+  (layer I11 (type signal) (direction off))
+  (layer I12 (type signal) (direction off))
+  (layer I13 (type signal) (direction off))
+  (layer I14 (type signal) (direction off))
+  (layer BOT (type signal) (direction off))
+  (grid via  1.52400)
+  (grid wire 1.52400)
+  (control
+   (via_at_smd off)
+   (off_grid on)
+  )
+  (via
+   $VIA#0_SIGNAL
+   (spare
+   )
+  )
+  (rule
+   (width 0.25400)
+   (clearance 0.38100)
+   (clearance 0.25400 (type wire_via))
+   (clearance 0.25400 (type wire_smd))
+   (clearance 0.25400 (type wire_pin))
+   (clearance 0.25400 (type wire_wire))
+   (clearance 0.25400 (type via_pin))
+   (clearance 0.25400 (type via_via))
+   (clearance 0.25400 (type via_smd))
+  )
+ )
+ (placement
+  (component CON2_1X2_U_FCI_INT12.1 (place INT12.1 -10.00000 46.00000 front 90))
+  (component CON2_1X2_U_FCI_INT34.1 (place INT34.1 -10.00000 52.00000 front 90))
+  (component CON2_1X2_U_FCI_INT12.2 (place INT12.2 -10.00000 15.00000 front 90))
+  (component CON2_1X2_U_FCI_INT34.2 (place INT34.2 -10.00000 21.00000 front 90))
+  (component CON19_1X19_U_FCI_J1 (place J1 2.50000 27.00000 front -90))
+  (component CON19_1X19_U_FCI_J2 (place J2 25.50000 27.00000 front 90))
+  (component CON2_1X2_U_FCI_MOTOR_A.1 (place MOTOR_A.1 -24.50000 45.96000 front 90))
+  (component CON2_1X2_U_FCI_MOTOR_B.1 (place MOTOR_B.1 -24.50000 51.96000 front 90))
+  (component CON2_1X2_U_FCI_MOTOR_A.2 (place MOTOR_A.2 -24.50000 15.00000 front 90))
+  (component CON2_1X2_U_FCI_MOTOR_B.2 (place MOTOR_B.2 -24.50000 21.00000 front 90))
+  (component "CON7_1X7_U_FCI_COLOR SENSOR" (place "COLOR SENSOR" 10.00000 104.04000 front 90
+  ))
+  (component CON4_1X4_U_FCI_COMPASS (place COMPASS 11.00000 63.96000 front 90))
+  (component CON4_1X4_U_FCI_OLED (place OLED -18.00000 107.50000 front 90))
+  (component CON2_1X2_U_FCI_SRC_POW (place SRC_POW -18.00000 93.00000 front 90))
+  (component "CON4_1X4_U_FCI_ULTRA SONIC" (place "ULTRA SONIC" 25.00000 105.50000 front 90
+  ))
+  (component SRC_2PIN_SRC1 (place SRC1 -6.50000 37.80000 front 90))
+  (component SRC_2PIN_J3 (place J3 -6.50000 6.80000 front 90))
+ )
+ (library
+  (image CON2_1X2_U_FCI_INT12.1 (side front)
+   (outline (rect TOP -4.01320 -1.60020 6.55320 2.54000))
+   (pin PS0 (rotate 0) 0 0.00000 0.00000)
+   (pin PS0 (rotate 0) 1 2.54000 0.00000)
+  )
+  (image CON2_1X2_U_FCI_INT34.1 (side front)
+   (outline (rect TOP -4.01320 -1.60020 6.55320 2.54000))
+   (pin PS0 (rotate 0) 0 0.00000 0.00000)
+   (pin PS0 (rotate 0) 1 2.54000 0.00000)
+  )
+  (image CON2_1X2_U_FCI_INT12.2 (side front)
+   (outline (rect TOP -4.01320 -1.60020 6.55320 2.54000))
+   (pin PS0 (rotate -180) 0 0.00000 0.00000)
+   (pin PS0 (rotate -180) 1 2.54000 0.00000)
+  )
+  (image CON2_1X2_U_FCI_INT34.2 (side front)
+   (outline (rect TOP -4.01320 -1.60020 6.55320 2.54000))
+   (pin PS0 (rotate -180) 0 0.00000 0.00000)
+   (pin PS0 (rotate -180) 1 2.54000 0.00000)
+  )
+  (image CON19_1X19_U_FCI_J1 (side front)
+   (outline (rect TOP -26.87320 -1.60020 26.87320 2.54000))
+   (pin PS1 (rotate 90) 0 -22.86000 0.00000)
+   (pin PS1 (rotate 90) 1 -20.32000 0.00000)
+   (pin PS1 (rotate 90) 2 -17.78000 0.00000)
+   (pin PS2 (rotate 0) 3 -15.24000 0.00000)
+   (pin PS2 (rotate 0) 4 -12.70000 0.00000)
+   (pin PS1 (rotate 90) 5 -10.16000 0.00000)
+   (pin PS1 (rotate 90) 6 -7.62000 0.00000)
+   (pin PS1 (rotate 90) 7 -5.08000 0.00000)
+   (pin PS1 (rotate 90) 8 -2.54000 0.00000)
+   (pin PS1 (rotate 90) 9 0.00000 0.00000)
+   (pin PS1 (rotate 90) 10 2.54000 0.00000)
+   (pin PS1 (rotate 90) 11 5.08000 0.00000)
+   (pin PS1 (rotate 90) 12 7.62000 0.00000)
+   (pin PS1 (rotate 90) 13 10.16000 0.00000)
+   (pin PS2 (rotate 0) 14 12.70000 0.00000)
+   (pin PS2 (rotate 0) 15 15.24000 0.00000)
+   (pin PS2 (rotate 0) 16 17.78000 0.00000)
+   (pin PS2 (rotate 0) 17 20.32000 0.00000)
+   (pin PS1 (rotate 90) 18 22.86000 0.00000)
+  )
+  (image CON19_1X19_U_FCI_J2 (side front)
+   (outline (rect TOP -26.87320 -1.60020 26.87320 2.54000))
+   (pin PS2 (rotate 0) 0 -22.86000 0.00000)
+   (pin PS2 (rotate 0) 1 -20.32000 0.00000)
+   (pin PS2 (rotate 0) 2 -17.78000 0.00000)
+   (pin PS1 (rotate -90) 3 -15.24000 0.00000)
+   (pin PS1 (rotate -90) 4 -12.70000 0.00000)
+   (pin PS2 (rotate 0) 5 -10.16000 0.00000)
+   (pin PS2 (rotate 0) 6 -7.62000 0.00000)
+   (pin PS2 (rotate 0) 7 -5.08000 0.00000)
+   (pin PS2 (rotate 0) 8 -2.54000 0.00000)
+   (pin PS2 (rotate 0) 9 0.00000 0.00000)
+   (pin PS2 (rotate 0) 10 2.54000 0.00000)
+   (pin PS2 (rotate 0) 11 5.08000 0.00000)
+   (pin PS2 (rotate 0) 12 7.62000 0.00000)
+   (pin PS1 (rotate -90) 13 10.16000 0.00000)
+   (pin PS2 (rotate 0) 14 12.70000 0.00000)
+   (pin PS2 (rotate 0) 15 15.24000 0.00000)
+   (pin PS1 (rotate -90) 16 17.78000 0.00000)
+   (pin PS2 (rotate 0) 17 20.32000 0.00000)
+   (pin PS1 (rotate -90) 18 22.86000 0.00000)
+  )
+  (image CON2_1X2_U_FCI_MOTOR_A.1 (side front)
+   (outline (rect TOP -4.01320 -1.60020 6.55320 2.54000))
+   (pin PS0 (rotate 0) 0 0.00000 0.00000)
+   (pin PS0 (rotate 0) 1 2.54000 0.00000)
+  )
+  (image CON2_1X2_U_FCI_MOTOR_B.1 (side front)
+   (outline (rect TOP -4.01320 -1.60020 6.55320 2.54000))
+   (pin PS0 (rotate 0) 0 0.00000 0.00000)
+   (pin PS0 (rotate 0) 1 2.54000 0.00000)
+  )
+  (image CON2_1X2_U_FCI_MOTOR_A.2 (side front)
+   (outline (rect TOP -4.01320 -1.60020 6.55320 2.54000))
+   (pin PS0 (rotate -180) 0 0.00000 0.00000)
+   (pin PS0 (rotate -180) 1 2.54000 0.00000)
+  )
+  (image CON2_1X2_U_FCI_MOTOR_B.2 (side front)
+   (outline (rect TOP -4.01320 -1.60020 6.55320 2.54000))
+   (pin PS0 (rotate -180) 0 0.00000 0.00000)
+   (pin PS0 (rotate -180) 1 2.54000 0.00000)
+  )
+  (image "CON7_1X7_U_FCI_COLOR SENSOR" (side front)
+   (outline (rect TOP -11.63320 -1.60020 11.63320 2.54000))
+   (pin PS2 (rotate 0) 0 -7.62000 0.00000)
+   (pin PS2 (rotate 0) 1 -5.08000 0.00000)
+   (pin PS0 (rotate 0) 2 -2.54000 0.00000)
+   (pin PS0 (rotate 0) 3 0.00000 0.00000)
+   (pin PS0 (rotate 0) 4 2.54000 0.00000)
+   (pin PS0 (rotate 0) 5 5.08000 0.00000)
+   (pin PS2 (rotate 0) 6 7.62000 0.00000)
+  )
+  (image CON4_1X4_U_FCI_COMPASS (side front)
+   (outline (rect TOP -6.55320 -1.60020 9.09320 2.54000))
+   (pin PS0 (rotate 0) 0 -2.54000 0.00000)
+   (pin PS0 (rotate 0) 1 0.00000 0.00000)
+   (pin PS0 (rotate 0) 2 2.54000 0.00000)
+   (pin PS0 (rotate 0) 3 5.08000 0.00000)
+  )
+  (image CON4_1X4_U_FCI_OLED (side front)
+   (outline (rect TOP -6.55320 -1.60020 9.09320 2.54000))
+   (pin PS0 (rotate 0) 0 -2.54000 0.00000)
+   (pin PS0 (rotate 0) 1 0.00000 0.00000)
+   (pin PS0 (rotate 0) 2 2.54000 0.00000)
+   (pin PS0 (rotate 0) 3 5.08000 0.00000)
+  )
+  (image CON2_1X2_U_FCI_SRC_POW (side front)
+   (outline (rect TOP -4.01320 -1.60020 6.55320 2.54000))
+   (pin PS0 (rotate 0) 0 0.00000 0.00000)
+   (pin PS0 (rotate 0) 1 2.54000 0.00000)
+  )
+  (image "CON4_1X4_U_FCI_ULTRA SONIC" (side front)
+   (outline (rect TOP -6.55320 -1.60020 9.09320 2.54000))
+   (pin PS0 (rotate 0) 0 -2.54000 0.00000)
+   (pin PS0 (rotate 0) 1 0.00000 0.00000)
+   (pin PS0 (rotate 0) 2 2.54000 0.00000)
+   (pin PS0 (rotate 0) 3 5.08000 0.00000)
+  )
+  (image SRC_2PIN_SRC1 (side front)
+   (outline (rect TOP -1.01600 -1.01600 4.21600 1.01600))
+   (pin PS0 (rotate 0) 0 0.00000 0.00000)
+   (pin PS0 (rotate 0) 1 3.20000 0.00000)
+  )
+  (image SRC_2PIN_J3 (side front)
+   (outline (rect TOP -1.01600 -1.01600 4.21600 1.01600))
+   (pin PS0 (rotate 0) 0 0.00000 0.00000)
+   (pin PS0 (rotate 0) 1 3.20000 0.00000)
+  )
+  (padstack PS0 (absolute on)
+   (shape (circle TOP 2.03200 0 0))
+   (shape (circle I1 2.03200 0 0))
+   (shape (circle I2 2.03200 0 0))
+   (shape (circle I3 2.03200 0 0))
+   (shape (circle I4 2.03200 0 0))
+   (shape (circle I5 2.03200 0 0))
+   (shape (circle I6 2.03200 0 0))
+   (shape (circle I7 2.03200 0 0))
+   (shape (circle I8 2.03200 0 0))
+   (shape (circle I9 2.03200 0 0))
+   (shape (circle I10 2.03200 0 0))
+   (shape (circle I11 2.03200 0 0))
+   (shape (circle I12 2.03200 0 0))
+   (shape (circle I13 2.03200 0 0))
+   (shape (circle I14 2.03200 0 0))
+   (shape (circle BOT 2.03200 0 0))
+  )
+  (padstack PS1 (absolute on)
+   (shape (circle TOP 2.28600 0 0))
+   (shape (circle I1 2.28600 0 0))
+   (shape (circle I2 2.28600 0 0))
+   (shape (circle I3 2.28600 0 0))
+   (shape (circle I4 2.28600 0 0))
+   (shape (circle I5 2.28600 0 0))
+   (shape (circle I6 2.28600 0 0))
+   (shape (circle I7 2.28600 0 0))
+   (shape (circle I8 2.28600 0 0))
+   (shape (circle I9 2.28600 0 0))
+   (shape (circle I10 2.28600 0 0))
+   (shape (circle I11 2.28600 0 0))
+   (shape (circle I12 2.28600 0 0))
+   (shape (circle I13 2.28600 0 0))
+   (shape (circle I14 2.28600 0 0))
+   (shape (circle BOT 2.28600 0 0))
+  )
+  (padstack PS2 (absolute on)
+   (shape (circle TOP 1.52400 0 0))
+   (shape (circle BOT 1.52400 0 0))
+  )
+  (padstack $VIA#0_SIGNAL (absolute on)
+   (shape (circle TOP 0.76200 0 0))
+   (shape (circle I1 0.76200 0 0))
+   (shape (circle I2 0.76200 0 0))
+   (shape (circle I3 0.76200 0 0))
+   (shape (circle I4 0.76200 0 0))
+   (shape (circle I5 0.76200 0 0))
+   (shape (circle I6 0.76200 0 0))
+   (shape (circle I7 0.76200 0 0))
+   (shape (circle I8 0.76200 0 0))
+   (shape (circle I9 0.76200 0 0))
+   (shape (circle I10 0.76200 0 0))
+   (shape (circle I11 0.76200 0 0))
+   (shape (circle I12 0.76200 0 0))
+   (shape (circle I13 0.76200 0 0))
+   (shape (circle I14 0.76200 0 0))
+   (shape (circle BOT 0.76200 0 0))
+  )
+ )
+ (network
+  (net "#00000"
+   (circuit
+    (use_layer TOP)
+    (use_via
+     $VIA#0_SIGNAL
+    )
+   )
+   (pins INT12.1-0 J1-8)
+  )
+  (net "#00001"
+   (circuit
+    (use_layer TOP)
+    (use_via
+     $VIA#0_SIGNAL
+    )
+   )
+   (pins INT12.1-1 J1-7)
+  )
+  (net "#00002"
+   (circuit
+    (use_layer TOP)
+    (use_via
+     $VIA#0_SIGNAL
+    )
+   )
+   (pins INT34.1-0 J1-6)
+  )
+  (net "#00003"
+   (circuit
+    (use_layer TOP)
+    (use_via
+     $VIA#0_SIGNAL
+    )
+   )
+   (pins INT34.1-1 J1-5)
+  )
+  (net "#00004"
+   (circuit
+    (use_layer TOP)
+    (use_via
+     $VIA#0_SIGNAL
+    )
+   )
+   (pins INT34.2-0 J1-10)
+  )
+  (net "#00005"
+   (circuit
+    (use_layer TOP)
+    (use_via
+     $VIA#0_SIGNAL
+    )
+   )
+   (pins INT34.2-1 J1-9)
+  )
+  (net "#00006"
+   (circuit
+    (use_layer TOP)
+    (use_via
+     $VIA#0_SIGNAL
+    )
+   )
+   (pins INT12.2-0 J1-12)
+  )
+  (net "#00007"
+   (circuit
+    (use_layer TOP)
+    (use_via
+     $VIA#0_SIGNAL
+    )
+   )
+   (pins INT12.2-1 J1-11)
+  )
+  (net "#00016"
+   (circuit
+    (use_layer TOP)
+    (use_via
+     $VIA#0_SIGNAL
+    )
+   )
+   (pins J1-18 SRC_POW-0 SRC1-0 J3-0)
+  )
+  (net "#00017"
+   (circuit
+    (use_layer TOP)
+    (use_via
+     $VIA#0_SIGNAL
+    )
+   )
+   (pins J1-13 SRC_POW-1)
+  )
+  (net "#00018"
+   (circuit
+    (use_layer TOP)
+    (use_via
+     $VIA#0_SIGNAL
+    )
+   )
+   (pins J1-0 "COLOR SENSOR"-4 COMPASS-3 OLED-0 "ULTRA SONIC"-0)
+  )
+  (net "#00030"
+   (circuit
+    (use_layer TOP)
+    (use_via
+     $VIA#0_SIGNAL
+    )
+   )
+   (pins J2-3 "ULTRA SONIC"-1)
+  )
+  (net "#00031"
+   (circuit
+    (use_layer TOP)
+    (use_via
+     $VIA#0_SIGNAL
+    )
+   )
+   (pins J2-4 "ULTRA SONIC"-2)
+  )
+  (net "#00040"
+   (circuit
+    (use_layer TOP)
+    (use_via
+     $VIA#0_SIGNAL
+    )
+   )
+   (pins J2-13 "COLOR SENSOR"-2 COMPASS-0 OLED-3)
+  )
+  (net "#00043"
+   (circuit
+    (use_layer TOP)
+    (use_via
+     $VIA#0_SIGNAL
+    )
+   )
+   (pins J2-16 "COLOR SENSOR"-3 COMPASS-1 OLED-2)
+  )
+  (net "#00045"
+   (circuit
+    (use_layer TOP)
+    (use_via
+     $VIA#0_SIGNAL
+    )
+   )
+   (pins J2-18 "COLOR SENSOR"-5 COMPASS-2 OLED-1 "ULTRA SONIC"-3 SRC1-1 J3-1)
+  )
+  (class SIGNAL
+   "#00000"
+   "#00001"
+   "#00002"
+   "#00003"
+   "#00004"
+   "#00005"
+   "#00006"
+   "#00007"
+   "#00016"
+   "#00017"
+   "#00018"
+   "#00030"
+   "#00031"
+   "#00040"
+   "#00043"
+   "#00045"
+   "{NC}"
+   "{VOID}"
+   (rule
+    (width 0.50800)
+    (clearance 0.38100)
+    (clearance 0.25400 (type wire_via))
+    (clearance 0.25400 (type wire_smd))
+    (clearance 0.25400 (type wire_pin))
+    (clearance 0.25400 (type wire_wire))
+    (clearance 0.25400 (type via_pin))
+    (clearance 0.25400 (type via_via))
+    (clearance 0.25400 (type via_smd))
+   )
+  )
+ )
+ (wiring
+   (wire (path TOP 0.50800 -10.00000 48.54000 -1.52400 48.54000 -1.52400 32.08000 2.50000 32.08000
+  ) (net "#00001"))
+   (wire (path TOP 0.50800 -10.00000 52.00000 0.00000 52.00000 0.00000 34.62000 2.50000 34.62000
+  ) (net "#00002"))
+   (wire (path TOP 0.50800 -10.00000 54.54000 0.80550 54.54000 0.80550 37.16000 2.50000 37.16000
+  ) (net "#00003"))
+   (wire (path TOP 0.50800 25.50000 49.86000 27.43200 49.86000 27.43200 33.35000 12.52089 33.35000
+    12.52089 33.52800 6.09600 33.52800 6.09600 56.38800 -12.19200 56.38800) (net "#00045")
+  )
+   (wire (path TOP 0.50800 25.50000 49.86000 25.50000 66.50000 11.00000 66.50000) (net "#00045")
+  )
+   (wire (path TOP 0.50800 -12.19200 56.38800 -12.19200 97.53600 -22.86000 97.53600 -22.86000 114.30000
+   -13.71600 114.30000 -13.71600 109.12000) (net "#00045"))
+   (wire (path TOP 0.50800 10.00000 109.12000 21.33600 109.12000 21.33600 110.58000 25.00000 110.58000
+  ) (net "#00045"))
+   (wire (path TOP 0.50800 -13.71600 109.12000 -13.71600 107.50000 -18.00000 107.50000
+  ) (net "#00045"))
+  (wire (path TOP 0.50800 -13.71600 109.12000 10.00000 109.12000) (net "#00045"))
+   (wire (path TOP 0.50800 -10.00000 21.00000 -7.62000 21.00000 -7.62000 24.46000 2.50000 24.46000
+  ) (net "#00004"))
+   (wire (path TOP 0.50800 -10.00000 23.54000 -10.00000 27.00000 2.50000 27.00000) (net "#00005")
+  )
+   (wire (path TOP 0.50800 -10.00000 17.54000 -6.09600 17.54000 -6.09600 21.92000 2.50000 21.92000
+  ) (net "#00007"))
+   (wire (path TOP 0.50800 2.50000 16.84000 4.57200 16.84000 4.57200 0.00000 -19.81200 0.00000
+   -19.81200 95.54000 -18.00000 95.54000) (net "#00017"))
+   (wire (path TOP 0.50800 2.50000 49.86000 4.57200 49.86000 4.57200 30.81000 27.43200 30.81000
+    27.43200 32.00400 28.95600 32.00400 28.95600 68.58000 24.38400 68.58000) (net "#00018")
+  )
+   (wire (path TOP 0.50800 25.00000 102.96000 21.33600 102.96000 21.33600 106.58000 10.00000 106.58000
+  ) (net "#00018"))
+   (wire (path TOP 0.50800 10.00000 106.58000 -5.81207 106.58000 -5.81207 104.96000 -18.00000 104.96000
+  ) (net "#00018"))
+   (wire (path TOP 0.50800 24.38400 68.58000 24.38400 71.93920 25.00000 71.93920 25.00000 102.96000
+  ) (net "#00018"))
+   (wire (path TOP 0.50800 24.38400 68.58000 16.30853 68.58000 16.30853 69.04000 11.00000 69.04000
+  ) (net "#00018"))
+   (wire (path TOP 0.50800 25.50000 11.76000 29.90980 11.76000 29.90980 85.74692 28.95600 85.74692
+   28.95600 105.50000 25.00000 105.50000) (net "#00030"))
+   (wire (path TOP 0.50800 25.50000 14.30000 22.86000 14.30000 22.86000 7.95000 27.43200 7.95000
+    27.43200 9.14400 33.52800 9.14400 33.52800 108.04000 25.00000 108.04000) (net "#00031")
+  )
+   (wire (path TOP 0.50800 25.50000 37.16000 11.00000 37.16000 11.00000 61.42000) (net "#00040")
+  )
+   (wire (path TOP 0.50800 7.62000 100.58400 -21.33600 100.58400 -21.33600 112.58000
+   -18.00000 112.58000) (net "#00040"))
+   (wire (path TOP 0.50800 11.00000 61.42000 7.62000 61.42000 7.62000 100.58400) (net "#00040")
+  )
+   (wire (path TOP 0.50800 7.62000 100.58400 7.62000 101.50000 10.00000 101.50000) (net "#00040")
+  )
+   (wire (path TOP 0.50800 25.50000 44.78000 18.80179 44.78000 18.80179 63.96000 11.00000 63.96000
+  ) (net "#00043"))
+   (wire (path TOP 0.50800 10.00000 104.04000 3.63705 104.04000 3.63705 102.10800 -19.81200 102.10800
+   -19.81200 110.04000 -18.00000 110.04000) (net "#00043"))
+   (wire (path TOP 0.50800 11.00000 63.96000 9.14400 63.96000 9.14400 80.42096 12.19200 80.42096
+   12.19200 104.04000 10.00000 104.04000) (net "#00043"))
+ )
+)

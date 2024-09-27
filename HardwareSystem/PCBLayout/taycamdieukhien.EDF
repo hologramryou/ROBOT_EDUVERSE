@@ -1,0 +1,429 @@
+(PCB taycamdieukhien
+ (parser
+  (host_cad ARES)
+  (host_version 8.10 SP3)
+ )
+ (resolution mm 100000)
+ (unit mm)
+ (structure
+  (boundary (rect pcb -106.56400 13.36680 -55.86680 76.56400))
+  (flip_style mirror_first)
+  (layer TOP (type signal) (direction horizontal))
+  (layer I1 (type signal) (direction off))
+  (layer I2 (type signal) (direction off))
+  (layer I3 (type signal) (direction off))
+  (layer I4 (type signal) (direction off))
+  (layer I5 (type signal) (direction off))
+  (layer I6 (type signal) (direction off))
+  (layer I7 (type signal) (direction off))
+  (layer I8 (type signal) (direction off))
+  (layer I9 (type signal) (direction off))
+  (layer I10 (type signal) (direction off))
+  (layer I11 (type signal) (direction off))
+  (layer I12 (type signal) (direction off))
+  (layer I13 (type signal) (direction off))
+  (layer I14 (type signal) (direction off))
+  (layer BOT (type signal) (direction off))
+  (grid via  1.52400)
+  (grid wire 1.52400)
+  (control
+   (via_at_smd off)
+   (off_grid on)
+  )
+  (via
+   $VIA#0_SIGNAL
+   (spare
+   )
+  )
+  (rule
+   (width 0.25400)
+   (clearance 0.38100)
+   (clearance 0.25400 (type wire_via))
+   (clearance 0.25400 (type wire_smd))
+   (clearance 0.25400 (type wire_pin))
+   (clearance 0.25400 (type wire_wire))
+   (clearance 0.25400 (type via_pin))
+   (clearance 0.25400 (type via_via))
+   (clearance 0.25400 (type via_smd))
+  )
+ )
+ (placement
+  (component "CON4_1X4_U_FCI_ANALOG HUB" (place "ANALOG HUB" -82.58000 72.50000 front 0
+  ))
+  (component "CON4_1X4_U_FCI_DIG HUB" (place "DIG HUB" -64.96000 72.50000 front 0))
+  (component "CON3_1X3_U_FCI_SERVO HUB" (place "SERVO HUB" -97.50000 72.50000 front 0
+  ))
+  (component CON15_1X15_U_FCI_J1 (place J1 -102.50000 35.16000 front 90))
+  (component CON15_1X15_U_FCI_J2 (place J2 -92.50000 35.16000 front 90))
+  (component CON2_1X2_U_FCI_SRC (place SRC -100.00000 62.66000 front 0))
+  (component BUTTON_2PIN_FUNC1 (place FUNC1 -80.00000 55.00000 front 0))
+  (component BUTTON_2PIN_DOWN (place DOWN -72.50000 22.50000 front 0))
+  (component BUTTON_2PIN_FUNC2 (place FUNC2 -65.00000 55.00000 front 0))
+  (component BUTTON_2PIN_LEFT (place LEFT -62.50000 31.50000 front 0))
+  (component BUTTON_2PIN_RIGHT (place RIGHT -82.50000 31.50000 front 0))
+  (component BUTTON_2PIN_UP (place UP -72.50000 40.00000 front 0))
+  (component BUTTON_6PIN_POWER (place POWER -87.50000 65.00000 front 0))
+ )
+ (library
+  (image "CON4_1X4_U_FCI_ANALOG HUB" (side front)
+   (outline (rect TOP -6.55320 -1.60020 9.09320 2.54000))
+   (pin PS0 (rotate 0) 0 -2.54000 0.00000)
+   (pin PS0 (rotate 0) 1 0.00000 0.00000)
+   (pin PS0 (rotate 0) 2 2.54000 0.00000)
+   (pin PS0 (rotate 0) 3 5.08000 0.00000)
+  )
+  (image "CON4_1X4_U_FCI_DIG HUB" (side front)
+   (outline (rect TOP -6.55320 -1.60020 9.09320 2.54000))
+   (pin PS0 (rotate 0) 0 -2.54000 0.00000)
+   (pin PS0 (rotate 0) 1 0.00000 0.00000)
+   (pin PS0 (rotate 0) 2 2.54000 0.00000)
+   (pin PS0 (rotate 0) 3 5.08000 0.00000)
+  )
+  (image "CON3_1X3_U_FCI_SERVO HUB" (side front)
+   (outline (rect TOP -6.55320 -1.60020 6.55320 2.54000))
+   (pin PS0 (rotate 0) 0 -2.54000 0.00000)
+   (pin PS0 (rotate 0) 1 0.00000 0.00000)
+   (pin PS0 (rotate 0) 2 2.54000 0.00000)
+  )
+  (image CON15_1X15_U_FCI_J1 (side front)
+   (outline (rect TOP -21.79320 -1.60020 21.79320 2.54000))
+   (pin PS0 (rotate 0) 0 -17.78000 0.00000)
+   (pin PS0 (rotate 0) 1 -15.24000 0.00000)
+   (pin PS0 (rotate 0) 2 -12.70000 0.00000)
+   (pin PS0 (rotate 0) 3 -10.16000 0.00000)
+   (pin PS0 (rotate 0) 4 -7.62000 0.00000)
+   (pin PS0 (rotate 0) 5 -5.08000 0.00000)
+   (pin PS0 (rotate 0) 6 -2.54000 0.00000)
+   (pin PS0 (rotate 0) 7 0.00000 0.00000)
+   (pin PS0 (rotate 0) 8 2.54000 0.00000)
+   (pin PS0 (rotate 0) 9 5.08000 0.00000)
+   (pin PS0 (rotate 0) 10 7.62000 0.00000)
+   (pin PS0 (rotate 0) 11 10.16000 0.00000)
+   (pin PS0 (rotate 0) 12 12.70000 0.00000)
+   (pin PS0 (rotate 0) 13 15.24000 0.00000)
+   (pin PS0 (rotate 0) 14 17.78000 0.00000)
+  )
+  (image CON15_1X15_U_FCI_J2 (side front)
+   (outline (rect TOP -21.79320 -1.60020 21.79320 2.54000))
+   (pin PS0 (rotate 0) 0 -17.78000 0.00000)
+   (pin PS0 (rotate 0) 1 -15.24000 0.00000)
+   (pin PS0 (rotate 0) 2 -12.70000 0.00000)
+   (pin PS0 (rotate 0) 3 -10.16000 0.00000)
+   (pin PS0 (rotate 0) 4 -7.62000 0.00000)
+   (pin PS0 (rotate 0) 5 -5.08000 0.00000)
+   (pin PS0 (rotate 0) 6 -2.54000 0.00000)
+   (pin PS0 (rotate 0) 7 0.00000 0.00000)
+   (pin PS0 (rotate 0) 8 2.54000 0.00000)
+   (pin PS0 (rotate 0) 9 5.08000 0.00000)
+   (pin PS0 (rotate 0) 10 7.62000 0.00000)
+   (pin PS0 (rotate 0) 11 10.16000 0.00000)
+   (pin PS0 (rotate 0) 12 12.70000 0.00000)
+   (pin PS0 (rotate 0) 13 15.24000 0.00000)
+   (pin PS0 (rotate 0) 14 17.78000 0.00000)
+  )
+  (image CON2_1X2_U_FCI_SRC (side front)
+   (outline (rect TOP -4.01320 -1.60020 6.55320 2.54000))
+   (pin PS0 (rotate 0) 0 0.00000 0.00000)
+   (pin PS0 (rotate 0) 1 2.54000 0.00000)
+  )
+  (image BUTTON_2PIN_FUNC1 (side front)
+   (outline (rect TOP -1.27000 -1.27000 6.27000 1.27000))
+   (pin PS1 (rotate 0) 0 0.00000 0.00000)
+   (pin PS1 (rotate 0) 1 5.00000 0.00000)
+  )
+  (image BUTTON_2PIN_DOWN (side front)
+   (outline (rect TOP -1.27000 -1.27000 6.27000 1.27000))
+   (pin PS1 (rotate 0) 0 0.00000 0.00000)
+   (pin PS1 (rotate 0) 1 5.00000 0.00000)
+  )
+  (image BUTTON_2PIN_FUNC2 (side front)
+   (outline (rect TOP -1.27000 -1.27000 6.27000 1.27000))
+   (pin PS1 (rotate 0) 0 0.00000 0.00000)
+   (pin PS1 (rotate 0) 1 5.00000 0.00000)
+  )
+  (image BUTTON_2PIN_LEFT (side front)
+   (outline (rect TOP -1.27000 -1.27000 6.27000 1.27000))
+   (pin PS1 (rotate 0) 0 0.00000 0.00000)
+   (pin PS1 (rotate 0) 1 5.00000 0.00000)
+  )
+  (image BUTTON_2PIN_RIGHT (side front)
+   (outline (rect TOP -1.27000 -1.27000 6.27000 1.27000))
+   (pin PS1 (rotate 0) 0 0.00000 0.00000)
+   (pin PS1 (rotate 0) 1 5.00000 0.00000)
+  )
+  (image BUTTON_2PIN_UP (side front)
+   (outline (rect TOP -1.27000 -1.27000 6.27000 1.27000))
+   (pin PS1 (rotate 0) 0 0.00000 0.00000)
+   (pin PS1 (rotate 0) 1 5.00000 0.00000)
+  )
+  (image BUTTON_6PIN_POWER (side front)
+   (outline (rect TOP -0.50800 -6.40800 5.50800 0.50800))
+   (pin PS2 (rotate 0) 0 0.00000 0.00000)
+   (pin PS2 (rotate 0) 1 2.50000 0.00000)
+   (pin PS2 (rotate 0) 2 5.00000 0.00000)
+   (pin PS2 (rotate 0) 3 0.00000 -5.90000)
+   (pin PS2 (rotate 0) 4 2.50000 -5.90000)
+   (pin PS2 (rotate 0) 5 5.00000 -5.90000)
+  )
+  (padstack PS0 (absolute on)
+   (shape (circle TOP 1.52400 0 0))
+   (shape (circle BOT 1.52400 0 0))
+  )
+  (padstack PS1 (absolute on)
+   (shape (circle TOP 2.54000 0 0))
+   (shape (circle I1 2.54000 0 0))
+   (shape (circle I2 2.54000 0 0))
+   (shape (circle I3 2.54000 0 0))
+   (shape (circle I4 2.54000 0 0))
+   (shape (circle I5 2.54000 0 0))
+   (shape (circle I6 2.54000 0 0))
+   (shape (circle I7 2.54000 0 0))
+   (shape (circle I8 2.54000 0 0))
+   (shape (circle I9 2.54000 0 0))
+   (shape (circle I10 2.54000 0 0))
+   (shape (circle I11 2.54000 0 0))
+   (shape (circle I12 2.54000 0 0))
+   (shape (circle I13 2.54000 0 0))
+   (shape (circle I14 2.54000 0 0))
+   (shape (circle BOT 2.54000 0 0))
+  )
+  (padstack PS2 (absolute on)
+   (shape (circle TOP 1.01600 0 0))
+   (shape (circle I1 1.01600 0 0))
+   (shape (circle I2 1.01600 0 0))
+   (shape (circle I3 1.01600 0 0))
+   (shape (circle I4 1.01600 0 0))
+   (shape (circle I5 1.01600 0 0))
+   (shape (circle I6 1.01600 0 0))
+   (shape (circle I7 1.01600 0 0))
+   (shape (circle I8 1.01600 0 0))
+   (shape (circle I9 1.01600 0 0))
+   (shape (circle I10 1.01600 0 0))
+   (shape (circle I11 1.01600 0 0))
+   (shape (circle I12 1.01600 0 0))
+   (shape (circle I13 1.01600 0 0))
+   (shape (circle I14 1.01600 0 0))
+   (shape (circle BOT 1.01600 0 0))
+  )
+  (padstack $VIA#0_SIGNAL (absolute on)
+   (shape (circle TOP 0.76200 0 0))
+   (shape (circle I1 0.76200 0 0))
+   (shape (circle I2 0.76200 0 0))
+   (shape (circle I3 0.76200 0 0))
+   (shape (circle I4 0.76200 0 0))
+   (shape (circle I5 0.76200 0 0))
+   (shape (circle I6 0.76200 0 0))
+   (shape (circle I7 0.76200 0 0))
+   (shape (circle I8 0.76200 0 0))
+   (shape (circle I9 0.76200 0 0))
+   (shape (circle I10 0.76200 0 0))
+   (shape (circle I11 0.76200 0 0))
+   (shape (circle I12 0.76200 0 0))
+   (shape (circle I13 0.76200 0 0))
+   (shape (circle I14 0.76200 0 0))
+   (shape (circle BOT 0.76200 0 0))
+  )
+ )
+ (network
+  (net "#00002"
+   (circuit
+    (use_layer TOP)
+    (use_via
+     $VIA#0_SIGNAL
+    )
+   )
+   (pins "DIG HUB"-1 J1-2)
+  )
+  (net "#00003"
+   (circuit
+    (use_layer TOP)
+    (use_via
+     $VIA#0_SIGNAL
+    )
+   )
+   (pins "DIG HUB"-0 J1-3)
+  )
+  (net "#00009"
+   (circuit
+    (use_layer TOP)
+    (use_via
+     $VIA#0_SIGNAL
+    )
+   )
+   (pins "ANALOG HUB"-3 "DIG HUB"-3 "SERVO HUB"-1 J1-9)
+  )
+  (net "#00010"
+   (circuit
+    (use_layer TOP)
+    (use_via
+     $VIA#0_SIGNAL
+    )
+   )
+   (pins "ANALOG HUB"-2 "DIG HUB"-2 "SERVO HUB"-0 J1-10)
+  )
+  (net "#00013"
+   (circuit
+    (use_layer TOP)
+    (use_via
+     $VIA#0_SIGNAL
+    )
+   )
+   (pins J1-13 SRC-0)
+  )
+  (net "#00014"
+   (circuit
+    (use_layer TOP)
+    (use_via
+     $VIA#0_SIGNAL
+    )
+   )
+   (pins J1-14 POWER-1)
+  )
+  (net "#00016"
+   (circuit
+    (use_layer TOP)
+    (use_via
+     $VIA#0_SIGNAL
+    )
+   )
+   (pins J2-1 DOWN-1 LEFT-1 RIGHT-1 UP-1)
+  )
+  (net "#00019"
+   (circuit
+    (use_layer TOP)
+    (use_via
+     $VIA#0_SIGNAL
+    )
+   )
+   (pins J2-4 RIGHT-0)
+  )
+  (net "#00020"
+   (circuit
+    (use_layer TOP)
+    (use_via
+     $VIA#0_SIGNAL
+    )
+   )
+   (pins J2-5 LEFT-0)
+  )
+  (net "#00021"
+   (circuit
+    (use_layer TOP)
+    (use_via
+     $VIA#0_SIGNAL
+    )
+   )
+   (pins J2-6 DOWN-0)
+  )
+  (net "#00022"
+   (circuit
+    (use_layer TOP)
+    (use_via
+     $VIA#0_SIGNAL
+    )
+   )
+   (pins J2-7 UP-0)
+  )
+  (net "#00023"
+   (circuit
+    (use_layer TOP)
+    (use_via
+     $VIA#0_SIGNAL
+    )
+   )
+   (pins J2-8 FUNC1-1 FUNC2-1)
+  )
+  (net "#00025"
+   (circuit
+    (use_layer TOP)
+    (use_via
+     $VIA#0_SIGNAL
+    )
+   )
+   (pins J2-10 FUNC2-0)
+  )
+  (net "#00026"
+   (circuit
+    (use_layer TOP)
+    (use_via
+     $VIA#0_SIGNAL
+    )
+   )
+   (pins J2-11 FUNC1-0)
+  )
+  (net "#00027"
+   (circuit
+    (use_layer TOP)
+    (use_via
+     $VIA#0_SIGNAL
+    )
+   )
+   (pins "ANALOG HUB"-0 J2-12)
+  )
+  (net "#00028"
+   (circuit
+    (use_layer TOP)
+    (use_via
+     $VIA#0_SIGNAL
+    )
+   )
+   (pins "ANALOG HUB"-1 "SERVO HUB"-2 J2-13)
+  )
+  (net "#00030"
+   (circuit
+    (use_layer TOP)
+    (use_via
+     $VIA#0_SIGNAL
+    )
+   )
+   (pins SRC-1 POWER-0)
+  )
+  (class SIGNAL
+   "#00002"
+   "#00003"
+   "#00009"
+   "#00010"
+   "#00013"
+   "#00014"
+   "#00016"
+   "#00019"
+   "#00020"
+   "#00021"
+   "#00022"
+   "#00023"
+   "#00025"
+   "#00026"
+   "#00027"
+   "#00028"
+   "#00030"
+   "{NC}"
+   "{VOID}"
+    (layer_rule TOP
+    (rule
+     (width 0.50800)
+     (clearance 0.38100)
+     (clearance 0.25400 (type wire_via))
+     (clearance 0.25400 (type wire_smd))
+     (clearance 0.25400 (type wire_pin))
+     (clearance 0.25400 (type wire_wire))
+     (clearance 0.25400 (type via_pin))
+     (clearance 0.25400 (type via_via))
+     (clearance 0.25400 (type via_smd))
+    )
+   )
+   (rule
+    (width 0.50800)
+    (clearance 0.38100)
+    (clearance 0.25400 (type wire_via))
+    (clearance 0.25400 (type wire_smd))
+    (clearance 0.25400 (type wire_pin))
+    (clearance 0.25400 (type wire_wire))
+    (clearance 0.25400 (type via_pin))
+    (clearance 0.25400 (type via_via))
+    (clearance 0.25400 (type via_smd))
+   )
+  )
+ )
+ (wiring
+ )
+)
